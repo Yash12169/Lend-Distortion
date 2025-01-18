@@ -17,7 +17,7 @@ let currentX = 0;
 let currentY = 0;
 const imgSources = Array.from(
   { length: 25 },
-  (_, i) => `./assets/img${i + 1}.jpg`
+  (_, i) => `./assets/img${i + 1}-min.jpg`
 );
 
 function getRandomImage() {

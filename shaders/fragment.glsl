@@ -83,7 +83,7 @@ void main() {
     vec2 sphereCenterUv = sphereCenter / textureSize;
     float sphereRadius = iResolution.y * 0.3;
     float focusFactor = 0.25;
-    float chromaticAberrationFactor = 0.25;
+    float chromaticAberrationFactor = 0.05;
     float zoom = 1.75;
 
     vec2 zoomedUv = zoomUV(vUv, sphereCenterUv, zoom);
